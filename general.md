@@ -11,11 +11,27 @@ fruit主要包括两部分：
 用一个fruit命令来完成代码的构建管理和运行。主要功能包括以下：
 ### 库文件下载
 
-    fruit get 
+    fruit get somehead.py
+
+下载完成后，在程序中就可以直接使用
+
+    import somehead
 
 ### 程序生成
+例如
+
+    fruit generate selection
+
+生成事例选择的框架
 
 ### 程序运行
 
+    fruit somecode.py
 
+可以直接对这个程序进行执行
 ## Python函数库
+目前准备制作下列函数库：
++ 拟合
++ 绘图
++ 数据管理
+
